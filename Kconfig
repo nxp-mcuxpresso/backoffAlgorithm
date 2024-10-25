@@ -1,0 +1,11 @@
+#
+# Copyright 2024 NXP
+#
+# SPDX-License-Identifier: MIT
+#
+
+menuconfig MCUX_COMPONENT_middleware.freertos.backoffalgorithm
+    bool "backoffalgorithm"
+    default n
+    help
+        Algorithm for calculating exponential backoff with jitter for network

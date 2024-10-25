@@ -1,0 +1,63 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-17T09:30:19Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "backoffalgorithm-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+      "name": "backoffalgorithm",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/backoffalgorithm",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-64ab1d6c-cf2a-4cd6-a598-16908f8c841c",
+      "name": "FreeRTOS packages",
+      "versionInfo": "v1.3.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: freertos",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/FreeRTOS/backoffAlgorithm@v1.3.0",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "423dccdd-ea81-4c92-9bd7-ae2f00455cf7",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-64ab1d6c-cf2a-4cd6-a598-16908f8c841c"
+    }
+  ]
+}
