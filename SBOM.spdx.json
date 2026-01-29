@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:30:19Z",
+    "created": "2026-01-29T02:25:00Z",
     "creators": [
       "Organization: NXP"
     ],
-    "licenseListVersion": "3.20"
+    "licenseListVersion": "3.26"
   },
-  "name": "backoffalgorithm-v25.06.00",
+  "name": "backoffalgorithm-v26.03.00-pvw1",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+  "documentNamespace": "https://nxp.com/spdx/ccd5fad2-c8bc-4463-9f50-31ad6395699b",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+      "SPDXID": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b",
       "name": "backoffalgorithm",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v26.03.00-pvw1",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/backoffalgorithm",
@@ -25,24 +25,25 @@
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-64ab1d6c-cf2a-4cd6-a598-16908f8c841c",
+      "SPDXID": "SPDXRef-package-87fee31d-d72b-45cd-8652-268cd369f0cd",
       "name": "FreeRTOS packages",
-      "versionInfo": "v1.3.0",
+      "versionInfo": "1.4.1",
       "licenseConcluded": "MIT",
       "licenseDeclared": "MIT",
+      "homepage": "https://github.com/FreeRTOS/backoffAlgorithm",
       "downloadLocation": "NOASSERTION",
       "originator": "Organization: freertos",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/FreeRTOS/backoffAlgorithm@v1.3.0",
-          "referenceType": "purl"
+          "referenceCategory": "OTHER",
+          "referenceLocator": "458f8837-9761-4547-a649-a00f69c087c9",
+          "referenceType": "BlackDuck-ComponentOrigin"
         },
         {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "423dccdd-ea81-4c92-9bd7-ae2f00455cf7",
-          "referenceType": "BlackDuck-ComponentOrigin"
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/FreeRTOS/backoffAlgorithm@v1.4.1",
+          "referenceType": "purl"
         }
       ],
       "filesAnalyzed": false
@@ -52,12 +53,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d"
+      "relatedSpdxElement": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b"
     },
     {
-      "spdxElementId": "SPDXRef-package-75cc419a-bbeb-4ace-96cc-29fdc887e73d",
+      "spdxElementId": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-64ab1d6c-cf2a-4cd6-a598-16908f8c841c"
+      "relatedSpdxElement": "SPDXRef-package-87fee31d-d72b-45cd-8652-268cd369f0cd"
     }
   ]
 }
