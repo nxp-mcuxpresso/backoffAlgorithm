@@ -1,13 +1,10 @@
 NXP Software Content Register
 
-Package: backoffalgorithm
+Package: backoffalgorithm NXP integration layer
 Version: 1.4.1
-Outgoing License: MIT
+Outgoing License: BSD-3-Clause
 License File: LICENSE
 Type of Content: source code, header files
 Description and comments: Algorithm for calculating exponential backoff with jitter for network retry attempts.
 Release Location: https://github.com/nxp-mcuxpresso/backoffalgorithm
-Origin: 
-      NXP (MIT)
-      Amazon (MIT)  - https://github.com/FreeRTOS/backoffalgorithm
-
+Origin: NXP (BSD-3-Clause)

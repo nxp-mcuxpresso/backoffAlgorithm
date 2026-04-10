@@ -2,50 +2,26 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2026-01-29T02:25:00Z",
+    "created": "2026-04-16T08:25:56Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.26"
   },
-  "name": "backoffalgorithm-v26.03.00-pvw1",
+  "name": "backoffalgorithm-v26.06.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/ccd5fad2-c8bc-4463-9f50-31ad6395699b",
+  "documentNamespace": "https://nxp.com/spdx/3e6b101b-bf36-4119-bf6a-e03e65d9be5f",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b",
+      "SPDXID": "SPDXRef-package-3e6b101b-bf36-4119-bf6a-e03e65d9be5f",
       "name": "backoffalgorithm",
-      "versionInfo": "v26.03.00-pvw1",
-      "licenseConcluded": "(MIT)",
-      "licenseDeclared": "(MIT)",
+      "versionInfo": "v26.06.00",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/backoffalgorithm",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
       "externalRefs": [],
-      "filesAnalyzed": false
-    },
-    {
-      "SPDXID": "SPDXRef-package-87fee31d-d72b-45cd-8652-268cd369f0cd",
-      "name": "FreeRTOS packages",
-      "versionInfo": "1.4.1",
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "MIT",
-      "homepage": "https://github.com/FreeRTOS/backoffAlgorithm",
-      "downloadLocation": "NOASSERTION",
-      "originator": "Organization: freertos",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "458f8837-9761-4547-a649-a00f69c087c9",
-          "referenceType": "BlackDuck-ComponentOrigin"
-        },
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/FreeRTOS/backoffAlgorithm@v1.4.1",
-          "referenceType": "purl"
-        }
-      ],
       "filesAnalyzed": false
     }
   ],
@@ -53,12 +29,7 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b"
-    },
-    {
-      "spdxElementId": "SPDXRef-package-ccd5fad2-c8bc-4463-9f50-31ad6395699b",
-      "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-87fee31d-d72b-45cd-8652-268cd369f0cd"
+      "relatedSpdxElement": "SPDXRef-package-3e6b101b-bf36-4119-bf6a-e03e65d9be5f"
     }
   ]
 }
